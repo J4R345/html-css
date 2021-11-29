@@ -1,5 +1,5 @@
 
-body
+body, ul
 {
    margin: 0px;
    padding: 0px;
@@ -46,22 +46,18 @@ a:hover
 
 @media (max-width: 600px) 
 {
-    #btn-mobile
-    {
-        display: block; 
-    }
+   
     #menu
     {
-        /*display: none;*/
         display: block;
         position: absolute;
         width: 100%;
         top: 70px;
         right: 0px;
         background: #e7e7e7;
-        height: 0px;
         transition: .6s;
         z-index: 1000;
+        height: 0px;
         visibility: hidden;
         overflow-y: hidden;
     }
@@ -72,8 +68,9 @@ a:hover
         overflow-y: auto;
     }
     #menu a {
+
         padding: 1rem .5rem;
-        margin:  1rem;
+        margin:  0 1rem;
         border-bottom: 2px solid rgba(0, 0, 0, .05);
     }
 
