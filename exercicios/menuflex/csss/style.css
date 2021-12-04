@@ -12,11 +12,26 @@ a
 }
 a:hover
 {
-   background: rgba(0, 0, 0, .05);
+   background: rgba(34, 34, 34, 0.05);
+}
+.empresa {
+
+    display: flex;
+    align-items:baseline;
+    gap: .2rem;
+}
+.empresa > h1{
+    display: block;
+    font-size: 3rem;
 }
 
+.empresa > p{
+    display: block;
+    font-size: 1.2rem;
+}
 #imagemlogo {
-    width: 70px;
+    
+    width: 115px;
     height: auto;
   }
 
@@ -75,6 +90,15 @@ a:hover
         border-bottom: 2px solid rgba(0, 0, 0, .05);
     }
 
+    .empresa > h1{
+        display: block;
+        font-size: 2rem;
+    }
+
+    .empresa  > p{
+        display: block;
+        font-size: .8rem;
+    }
     #btn-mobile
     {
         display: flex;
