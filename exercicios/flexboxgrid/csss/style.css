@@ -1,20 +1,11 @@
 @charset "UTF-8";
 
-
-@font-face {
-    font-family: 'Android';
-    src: url('../fontes/idroid.otf') format('opentype');
-    font-weight: normal;
-}
-
 :root {    
 
     /*Variaveis*/
      --cor0: #1d1e20;
      --cor1: #f8f2f2;
      
-     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-     --fonte-android: 'Android', cursive;
  }
 
 
