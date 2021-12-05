@@ -57,6 +57,27 @@ img{
     display: block;
     padding: 10px;
 }
+.logotipo{
+    display: flex;
+    width: 120px;
+    height: auto;
+}
+
+.empresa{
+    display: flex;
+    align-items: baseline;
+    gap: .2rem;
+}
+
+.empresa > h1{
+    color: white;
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.2rem;
+    color: white;
+}
 
 /******************************/
 /*Display Flex ou Flexbox*/
@@ -164,6 +185,16 @@ order: -1;
     .sidebar > div{
         flex: 1 0 200px;
         margin: 0 5px;
+    }
+
+    h1{
+        color: white;
+        font-size: 2rem;
+    }
+    
+    p{
+        font-size: .8rem;
+        color: white;
     }
     
 }
