@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+@font-face {
+	font-family: "Android";
+	src: url("../fontes/idroid.otf") format("opentype");
+	font-weight: normal;
+}
+
+:root {
+	--cor0: #fff;
+	--cor1: #a89f9f;
+	--cor2: #978e8e;
+	--cor3: #867d7d;
+	--cor4: #746c6c;
+	--cor5: #635b5b;
+	--cor6: rgba(223, 215, 215, 0.658);
+
+	--fonte-padrao: "Roboto", sans-serif;
+	--fonte-android: "Android", cursive;
+	--fonte-cabecalho: "Sriracha", cursive;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: none;
+	text-decoration: none;
+	list-style: none;
+	outline: none;
+	font-size: 62.5%;
+	
+}
+body {
+	background: var(--cor1);
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: left;
+	
+}
+.cabecalho {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	height: 5vh;
+	padding: 10px 20px;
+	margin: 0px;
+	background: var(--cor2);
+	color: var(--cor6);
+	font-family: var(--fonte-android);
+}
+
+.logo {
+	height: 5rem;
+}
+.marca {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+h2 {
+	font-size: 3.2rem;
+}
+
+p {
+	padding-left: 10rem;
+	font-family: var(--fonte-padrao);
+	font-size: 0.9rem;
+}
+.main {
+	height: 86.7vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	max-width: 35rem;
+	position: relative;
+	padding: 20px 10px;
+	background: var(--cor0);
+	box-shadow: 0 2px 4px rgba(158, 105, 105, 0.253);
+	border-radius: 6px;
+	border: 2px solid var(--cor2);
+}
+
+img {
+	height: 200px;
+	width: 170px;
+	border: 2px solid var(--cor2);
+}
+
+.foto,
+h1 {
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px;
+}
+
+h1 {
+	padding-bottom: 5px;
+	color: var(--cor2);
+	font-family: var(--fonte-android);
+	font-size: 2.6rem;
+}
+
+.selecao {
+	display: flexbox;
+	text-align: center;
+	padding-left: 10px;
+	font-size: 2.2rem;
+}
+
+.itens {
+	position: relative;
+	margin-bottom: 3px;
+	font-size: 2.4rem;
+}
+
+.texres {
+	width: 90%;
+	padding: 8px;
+	margin: -5px 5px;
+	border-radius: 5px;
+	border: 1.5px solid gray;
+}
+
+.texres:focus {
+	border: 0.2rem solid #0266fc;
+	transition: 0.4s;
+}
+
+.lab {
+	position: relative;
+	top: 8px;
+	left: 10px;
+	pointer-events: none;
+	background: white;
+	font-size: 1.8rem;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 5vh;
+	color: var(--cor6);
+	font-size: 1.3rem;
+	background: var(--cor2);
+	padding: 5px;
+	margin-bottom: 0px;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 320px) {
+	* {
+		font-size: 47%;
+	}
+
+	body {
+		background: var(--cor2);
+	}
+
+	.container {
+		max-width: 45rem;
+	}
+
+	.selecao {
+		font-size: 3.6rem;
+	}
+
+	.texres {
+		font-size: 2.1rem;
+	}
+}

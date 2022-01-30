@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<title>Colaboradores</title>
+
+		<link rel="stylesheet" href="./estilos/estilos.css" />
+
+		<script src="./scripts/calculaIdade.js" defer></script>
+		<script src="./scripts/colabsp.js" defer></script>
+		<script src="./scripts/colabse.js" defer></script>
+		<script src="./scripts/script.js" defer></script>
+	</head>
+
+	<body>
+		<header class="cabecalho">
+		<img src="imgs/kosmuslogo.png" alt="Logo" class="logo">
+		<div class="marca">
+			<h2>Kosmus</h2>
+			<p>Soluctions</p>
+		</div>
+		</header>
+		
+		<section class="main">
+		
+			<div class="container">
+				
+				<h1 id="alterar">Colaboradores</h1>
+				
+				<div id="photo" class="foto">
+					<img src="imgs/base.png" alt="foto" />
+				</div>
+
+				<div class="selecao">
+					<input type="radio" name="empresa" id="Se" class="radios">
+					<label for="Se">Serrana</label>
+					<input type="radio" name="empresa" id="Sp" checked class="radios">
+					<label for="Sp">Santa Paula</label>
+				</div>
+
+				<div>
+					<form action="">
+						<div id="dados" class="itens">
+							<label for="" class="lab">Matricula</label>
+							<input type="text" maxlength="4" id="matr" class="texres" required>
+							<label for="" class="lab">Nome</label>
+							<input type="text" id="nome" class="texres" required>
+							<label for="" class="lab">Função</label>
+							<input type="text" id="funcao" class="texres" required>
+							<label for="" class="lab">Nascimento</label>
+							<input type="text" id="nasc" class="texres" required>
+							<label for="" class="lab">Idade:</label>
+							<input type="text" id="idade" class="texres" required>
+							<label for="" class="lab">Admissão</label>
+							<input type="text" id="admissao" class="texres" required>
+							<label for="" class="lab">Tempo</label>
+							<input type="text" id="tempo" class="texres" required>
+							<label for="" class="lab">Telefone</label>
+							<input type="text" id="fone" class="texres" required>
+							
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer>
+			© 2009-2022 Kosmus Soluctions - Todos Os Direitos Reservados
+		</footer>
+	</body>
+</html>
