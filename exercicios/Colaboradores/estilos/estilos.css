@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
 
 @font-face {
@@ -113,7 +114,7 @@ h1 {
 	display: flexbox;
 	text-align: center;
 	padding-left: 10px;
-	font-size: 2.2rem;
+	font-size: 2.5rem;
 }
 
 .itens {
@@ -157,7 +158,8 @@ footer {
 	flex-wrap: wrap;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 425px) {
+	
 	* {
 		font-size: 47%;
 	}
