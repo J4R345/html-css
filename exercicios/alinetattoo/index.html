@@ -6,16 +6,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Aline Tattoo Studio</title>
 		<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
 		<link rel="stylesheet" href="estilo/style.css" />
-		<script src="scripts/script.js" defer ></script>
-	
+		<script src="scripts/script.js" defer></script>
 	</head>
 
 	<body>
 		<main>
-			<header class="header">
+			<header class="header" id="header">
 				<div class="btn">
-					<button id="btnDark" ><img src="imagens/darkmoon.png" alt="sol"></button>
+					<button id="btnDark">
+						<img src="imagens/darkmoon.png" alt="sol" />
+					</button>
 				</div>
 
 				<nav class="menu">
@@ -54,24 +59,24 @@
 
 					<div class="card">
 						<div class="item">
-							<img src="imagens/tattoo4.jpg" alt="Tattoo3" />
+							<img src="imagens/tattoo3.jpg" alt="Tattoo3" />
 						</div>
 					</div>
 
 					<div class="card">
 						<div class="item">
-							<img src="imagens/tattoo5.jpg" alt="Tattoo4" />
+							<img src="imagens/tattoo4.jpg" alt="Tattoo4" />
 						</div>
 					</div>
 
 					<div class="card">
 						<div class="item">
-							<img src="imagens/tattoo6.jpg" alt="Tattoo5" />
+							<img src="imagens/tattoo5.jpg" alt="Tattoo5" />
 						</div>
 					</div>
 					<div class="card">
 						<div class="item">
-							<img src="imagens/tattoo5.jpg" alt="Tattoo6" />
+							<img src="imagens/tattoo6.jpg" alt="Tattoo6" />
 						</div>
 					</div>
 				</div>
@@ -82,18 +87,18 @@
 				<h1>Sobre Aline</h1>
 			</div>
 
-			<div class="tatuadora">
-
+			<div class="tattoo-artist">
 				<div class="photo-aline">
 					<picture>
-						<source media="(max-width: 480px)" srcset="imagens/alinetattoo1.png" />
+						<source
+							media="(max-width: 670px)"
+							srcset="imagens/alinetattoo1.png"
+						/>
 						<img src="imagens/alinetattoo.png" alt="Aline Tattoo" />
 					</picture>
 				</div>
-				
-				<div class="aline-bio">
 
-					
+				<div class="aline-bio">
 					<p>
 						Aline Souza é uma tatuadora capixaba erradicada em São Paulo a 5
 						anos, e ativa no universo da tatuagem a 7, Aline pertence a nova
@@ -103,15 +108,13 @@
 						clínico fazem com que as obras criadas por esses mestres torne-se
 						referência para a criação de seus trabalhos cotidianos.
 					</p>
-					
+
 					<p>
 						Sua paixão é a arte Oriental, mas encontrou na cultura Polinésia uma
 						forma de expandir seus conhecimentos e mostrar a precisão e
 						criatividade de seus traços fortes e precisos.
 					</p>
 				</div>
-
-				
 			</div>
 
 			<!--Como Chegar-->
@@ -147,6 +150,11 @@
 				</div>
 				<p>© Aline Tattoo - Todos os direitos reservados</p>
 			</footer>
+			<div class="btn-footer">
+				<button class="btnup">
+					<a href="#header"><i class="material-icons">expand_less</i></a>
+				</button>
+			</div>
 		</main>
 	</body>
 </html>

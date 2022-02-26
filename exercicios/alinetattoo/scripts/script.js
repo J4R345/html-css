@@ -1,6 +1,4 @@
-
 const theme = window.localStorage.getItem("theme");
-
 
 /* verifica se o tema armazenado no localStorage é escuro
 se sim aplica o tema escuro ao body */
